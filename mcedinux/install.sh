@@ -1,4 +1,4 @@
-echo install.log
+rmdir ~/mcedit
 cd ~
 sudo apt-get install git python-opengl python-pygame python-yaml python-numpy
 git clone --recursive https://github.com/mcedit/mcedit
