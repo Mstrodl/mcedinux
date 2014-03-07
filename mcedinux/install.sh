@@ -9,5 +9,5 @@ virtualenv ENV
 cd ~/Desktop
 wget "https://raw.github.com/Mstrodl/mcedinux/master/mcedit.sh"
 chmod +x mcedit.sh
-mv mcedit.sh mcedit
+mv mcedit.sh MCEdit
 cd ~/
