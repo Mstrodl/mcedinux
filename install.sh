@@ -1,11 +1,13 @@
+echo install.log
 cd ~
 sudo apt-get install git python-opengl python-pygame python-yaml python-numpy
 git clone --recursive https://github.com/mcedit/mcedit
 cd mcedit
-easy_install virtualenv
+pip install virtualenv
 virtualenv ENV
 . ENV/bin/activate
 cd ~/Desktop
-wget "https://www.dropbox.com/s/n2vmonefk6zctee/mcedit.sh"
+wget "https://raw.github.com/Mstrodl/mcedinux/master/mcedit.sh"
 chmod +x mcedit.sh
-cd ~
+mv mcedit.sh mcedit
+cd ~/
