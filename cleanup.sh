@@ -4,5 +4,5 @@
 
  cd "$BINDIR"
 cd ..
-rm ./mcedinux
+rmdir ./mcedinux
 echo "Cleaned Up Files!"
