@@ -1,0 +1,7 @@
+	[Desktop Entry]
+	Name=MCEdit
+	Exec=cd ~/mcedit && python mcedit.py
+	Icon=
+	Type=Application
+	Categories=
+	
